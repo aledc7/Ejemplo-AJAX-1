@@ -1,13 +1,13 @@
 # Ejemplo-AJAX-1
-## Este código pertenece al siguiente videotutorial del canal de Youtube "Programación y más" [video](https://www.youtube.com/watch?v=Qk2cqRtWkDo&t=76s)
+###### Este código pertenece al siguiente videotutorial del canal de Youtube "Programación y más" [video](https://www.youtube.com/watch?v=Qk2cqRtWkDo&t=76s)
 
-## Consideraciónes para que el ejemplo funcione:
+###### Consideraciónes para que el ejemplo funcione:
 
 * Para que este código funcione, debe estar en un servidor apache, yo lo estoy probando en MAMP
 * En la misma ubicación del archivo html tiene que estar el archivo.txt con algun diálogo.
 
 
-#### ahora sin mas, les comparto mi código, con comentarios explicando cada paso.
+###### ahora sin mas, les comparto mi código, con comentarios explicando cada paso.
 
 
 
@@ -92,5 +92,7 @@
 ```
 
 ###### Saludos desde Rosario, Argentina.
+
+###### Ale DC
 
 

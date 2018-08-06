@@ -7,7 +7,8 @@
 * En la misma ubicación del archivo html tiene que estar el archivo.txt con algun diálogo.
 
 
-###### ahora sin mas, les comparto el código que he escrito siguiendo el video tutorial de los muchachos de "Programación y MAS'. Me tomé el permiso de poner mis comentarios en el código, de cada paso realizado. Espero lo aprovechen.
+###### Les comparto el código que he escrito siguiendo el video tutorial de los muchachos de "Programación y MAS".
+###### Me tomé el atrevimiento de poner mis comentarios en el código, comentando cada paso realizado. Espero lo aprovechen.
 
 
 

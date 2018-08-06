@@ -32,6 +32,7 @@
         function inicializar_XMLHttpRequest() {
             if (window.XMLHttpRequest)
                 peticionHTTP = new XMLHttpRequest();
+            // este else es para navegadores viejos que no soporten XMLHttpRequest, en ese caso se usará ActiveXObject.    
             else peticionHTTP = new ActiveXObject("Microsoft.XMLHTTP");
         }
 
@@ -43,7 +44,7 @@
             //aca verifico el cámbio de estado y si está ok se procede con alguna funcion.
             peticionHTTP.onreadystatechange = funcion;
 
-            // aca abro la peticion a la api, pasandole coƒmo mínimo, la URL y el Método HTTP, que siempre va a ser true de "Asyhnchronous".
+            // aca abro la peticion a la api, pasandole como mínimo, la URL y el Método HTTP, que siempre va a ser true de "Asyhnchronous".
             peticionHTTP.open(metodo, url, true);
 
             //esto no lo explicó aún.
@@ -74,9 +75,7 @@
         }
 
 
-        //invoca a la funcion y le pasa los valores
-        //realizarPeticion('archivo.txt', 'GET', funcActuadora);
-
+        // la funcion descargaArchivo es la que dispara todas las acciones, se ejecuta cuando la página terminó de cargar, usando windows.onload.
         window.onload = descargarArchivo;
     </script>
 
@@ -85,7 +84,6 @@
 </head>
 
 <body>
-
 </body>
 
 </html>

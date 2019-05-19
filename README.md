@@ -1,4 +1,7 @@
 # Ejemplo-AJAX-1
+
+[<img src="https://github.com/aledc7/PHP-Certification/blob/master/aledc-logo.png?raw=true">](https://aledc.com)
+
 ###### Este código pertenece al siguiente videotutorial del canal de Youtube "Programación y más" [video](https://www.youtube.com/watch?v=Qk2cqRtWkDo&t=76s)
 
 ###### Consideraciónes para que el ejemplo funcione:
